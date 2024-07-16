@@ -1,6 +1,6 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
-import bot_token
+
 import os
 from dotenv import load_dotenv
 
