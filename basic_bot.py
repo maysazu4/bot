@@ -35,7 +35,7 @@ def main():
     # Register the /start command with the start function
     start_handler = CommandHandler('start', start)
     application.add_handler(start_handler)
-    fetch_data_handler = CommandHandler('fetchdata', fetch_data)
+    fetch_data_handler = CommandHandler('generate_number', fetch_data)
     application.add_handler(fetch_data_handler)
     test_handler = CommandHandler('test', test)
     application.add_handler(test_handler)
