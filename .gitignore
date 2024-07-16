@@ -163,3 +163,4 @@ cython_debug/
 
 bot_token.py
 .env
+general-prep-week-key-hasub.pem
